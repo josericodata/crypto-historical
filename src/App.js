@@ -8,9 +8,16 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?range=30d&interval=1d"
+          "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart",
+          {
+            params: {
+              vs_currency: "usd",
+              days: 30,
+              interval: "daily",
+            },
+          }
         );
-        const prices = response.data.chart.result[0].indicators.quote[0].close;
+        const prices = response.data.prices.map(item => item[1]); // Extract prices
         setData(prices);
       } catch (error) {
         console.error("Error fetching data:", error);
