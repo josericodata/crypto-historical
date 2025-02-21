@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crypto-historical/static/css/main.e6c13ad2.css",
+    "main.js": "/crypto-historical/static/js/main.26dade58.js",
+    "static/js/453.af2f3dae.chunk.js": "/crypto-historical/static/js/453.af2f3dae.chunk.js",
+    "index.html": "/crypto-historical/index.html",
+    "main.e6c13ad2.css.map": "/crypto-historical/static/css/main.e6c13ad2.css.map",
+    "main.26dade58.js.map": "/crypto-historical/static/js/main.26dade58.js.map",
+    "453.af2f3dae.chunk.js.map": "/crypto-historical/static/js/453.af2f3dae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.26dade58.js"
+  ]
+}
